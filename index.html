@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sam Brysbaert</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome for icons -->
+    <script src="https://kit.fontawesome.com/c68a44e8fa.js" crossorigin="anonymous"></script>
+    <!-- font from google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="bio-container">
+            <h1>Sam Brysbaert</h1>
+            <h3>
+                Student software developer
+            </h3>
+            <p>
+                Third year student of applied computer science at HoGent.
+                My main focus is programming and software development. Also proficient in and passionate about Linux.
+
+            </p>
+        </div>
+
+        <div id="img-container">
+            <img src="media/sam-brysbaert.jpg" id="main-picture"></img>
+        </div>
+    </header>
+    <div id="contact-info">
+        <span>Contact me: </span>
+        <span class="contact-item"><i class="far fa-envelope"></i><a
+                href="mailto:sam.brysbaert@gmail.com">sam.brysbaert@gmail.com</a></span>
+        <span class="contact-item"><i class="fab fa-linkedin"></i><a
+                href="https://www.linkedin.com/in/sam-brysbaert/">linkedin.com/in/sam-brysbaert</a></span>
+        <span class="contact-item"><i class="fas fa-phone"></i><a href="tel: +32 492 85 30">+32 492 85 30
+                48</a></span>
+    </div>
+
+    <hr>
+    <div id="projects">
+        <h2>Projects</h2>
+        <div id="lorem" class="project">
+            <h3>Lorem</h3>
+            <div class="project-contents">
+                <iframe src="https://www.youtube.com/embed/FLArvyB73Ik" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p class=project-explanation>
+                    Lorem is a tool which can be used to manage events. Events can be created, managed and deleted by
+                    administrators. Normal users can sign up for events and rate them upon completion. The
+                    administrator's
+                    panel is written in Java and the user's page is written in C#. You can view a demo by clicking on
+                    the
+                    video, please note that it is in Dutch, but there are English subtitles.
+                </p>
+            </div>
+        </div>
+
+        <div id="cllct" class="project">
+            <h3>Cllct</h3>
+            <div class="project-contents">
+                <p class=project-explanation>
+                    Cllct is a bookmarking tool which you can use to collect links to websites. Links can be sorted into
+                    categories and given a name and a color. It is also possible to search for links and there is a dark
+                    mode. I created this tool because I was unsatisfied with the bookmark management options in Chrome.
+                    The bookmarks would often fall out of sync with each other on different computers and it was not
+                    accessable from a computer where sync was not turned on (such as a friends computer). It is written
+                    in C#.
+                </p>
+                <img src="media/cllct.png" width="560">
+            </div>
+        </div>
+
+        <hr>
+        <div id="future-plans">
+            <h2>Plans for the Future</h2>
+            <p>In the future I hope to focus on back-end programming. I am interested in exploring the
+                possibilities offered by technologies such as GraphQL and PHP frameworks like Drupal. I would also like
+                to learn more about low-level programming with languages like Rust and C, in this domain I would like to
+                design and implement some small linux utilities in the vein of ripgrep and gotop.</p>
+        </div>
+</body>
+
+</html>
